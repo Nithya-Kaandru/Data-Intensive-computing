@@ -1,0 +1,195 @@
+
+==============================
+Reviews Dataset Initial Schema
+==============================
+
+root
+ |-- Id: string (nullable = true)
+ |-- Title: string (nullable = true)
+ |-- Price: string (nullable = true)
+ |-- User_id: string (nullable = true)
+ |-- profileName: string (nullable = true)
+ |-- review/helpfulness: string (nullable = true)
+ |-- review/score: string (nullable = true)
+ |-- review/time: string (nullable = true)
+ |-- review/summary: string (nullable = true)
+ |-- review/text: string (nullable = true)
+
+
+
+==============================
+Reviews Dataset Top 5 Rows
+==============================
+
+{'User_id': 'A1BXA3SM3AJOKL', 'Title': 'Murder By The Book (Nero Wolfe)', 'review/score': '5.0', 'review/text': '"(If you\'re interested in an audio edition, Michael Pritchard\'s unabridged narration is pretty good.)We begin with the murder of a man who had no life: Leonard Dykes, fished out of the river on New Year\'s Day, a confidential clerk in the law firm of Corrigan, Phelps, Custen, and Briggs. No family (other than a married sister in California), no lovers, no unsavoury habits, no money problems (neither debts nor a large net worth), no problems with his job. Somebody somewhere, though, hit him on the head before leaving him to drown, and ransacked Dykes\' apartment, but the only thing the Manhattan homicide squad could find was a single sheet of paper in a book, with a list of men\'s names, none of whom could be found in New York City.Stuck, Cramer pays a call at the brownstone, but Wolfe can only suggest that Dykes or someone he knew had tried to come up with an alias for someone, but never used it. Cramer, frustrated (and embarrassed at having sunk so low as to ask for help without getting anywhere), leaves it at that.Six weeks later, John R. Wellman hires Wolfe to find the man who killed his daughter Joan; he\'s not satisfied with the Bronx\'s handling of the case. From a letter, he knows that after Joan rejected a manuscript - ""Put Not Your Trust""'}
+{'User_id': None, 'Title': 'Murder By The Book (Nero Wolfe)', 'review/score': '5.0', 'review/text': "This doesn't seem to be a well known Wolfe story, but I think it's one of the best three. It's outstanding for the cleverness of the plot, which is not always a Stout strength. For once, Wolfe really has to unravel complex cause and effect like a Poirot, and there's no cheating of the reader."}
+{'User_id': 'A18JFJOE55ZJWY', 'Title': 'Murder By The Book (Nero Wolfe)', 'review/score': '5.0', 'review/text': "Rex Stout's Nero Wolfe / Archie Goodwin books comprise one of the best mystery series of all time, and *Murder by the Book* is one of the best of the series. Sparkling with Stout's sharp wit, brilliant in detail and characterization, rich in period ambiance, the book is a total pleasure from start to finish. Even from the viewpoint of formal detection, usually not one of Stout's stronger points, this one is a flawless gem. The fact that it is out out print is little short of appalling, but the fact that used copies (as well as &quot;audios&quot;) are readily available save the day. Still, the book deserves to be reissued and to be kept in print for posterity."}
+{'User_id': None, 'Title': 'Murder By The Book (Nero Wolfe)', 'review/score': '5.0', 'review/text': "I loved just about everything about this book. A wistful, infatuated Archie, an exasperated/exasperating Wolfe, police who are (as Wolfe himself would say) good enough at what they do but always a step or two behind, and an action-packed yet heartbreaking mystery. So often books of this genre use murder merely as a catalyst for action. By introducing the victims' families and giving them voice, Rex Stout makes us view the murders in terms of the very real pain they cause those who are left behind. But don't get me wrong -- this book is not a downer. It's bright and clever and, as always, the Wolfe/Goodwin exchanges brought me many a smile."}
+{'User_id': 'A1N7V7G1DZEYJY', 'Title': 'Murder By The Book (Nero Wolfe)', 'review/score': '5.0', 'review/text': "If you are a Nero Wolfe fan--and few mystery lovers who have ever read a Nero Wolfe novel are not--you are sure to enjoy &quot;Murder by the Book.&quot; I have read a couple score of Rex Stout's Nero Wolfe novels and novellas, and this is one of the best. Stout has a unique voice, and he is at the top of his form here. The banter between Wolfe and wiseacre sidekick Archie Goodwin races effortlessly along. &quot;Dissed&quot; by Wolfe on the telephone, Archie hangs up and says sarcastically: &quot;I got the impression that I had interrupted him at something important like a crossword puzzle.&quot; And the mystery in &quot;Murder by the Book&quot; is well done, too. A real winner!"}
+
+==============================
+Reviews Dataset Summary Statistics (review/score)
+==============================
+
+{'summary': 'count', 'review/score': '2999870'}
+{'summary': 'mean', 'review/score': '1656.860421970827'}
+{'summary': 'stddev', 'review/score': '1427549.9863179382'}
+{'summary': 'min', 'review/score': ' & Algorithms"""'}
+{'summary': 'max', 'review/score': 'thersites'}
+
+==============================
+Reviews Missing Values (Before Cleaning)
+==============================
+
+Id: 0
+Title: 208
+Price: 2517579
+User_id: 562250
+profileName: 562250
+review/helpfulness: 367
+review/score: 130
+review/time: 27
+review/summary: 65
+review/text: 43
+
+
+==============================
+Top 20 Users (Most Reviews)
+==============================
+
+User_id: None
+count: 562250
+
+User_id: A14OJS0VWMOSWO
+count: 5791
+
+User_id: AFVQZQ8PW0L
+count: 3606
+
+User_id: A1D2C0WDCSHUWZ
+count: 3145
+
+User_id: AHD101501WCN1
+count: 1994
+
+User_id: A1X8VZWTOG8IS6
+count: 1803
+
+User_id: A1K1JW1C5CUSUZ
+count: 1455
+
+User_id: A20EEWWSFMZ1PN
+count: 1387
+
+User_id: A1S3C5OFU508P3
+count: 1307
+
+User_id: A1N1YEMTI9DJ86
+count: 1030
+
+User_id: A2OJW07GQRNJUT
+count: 999
+
+User_id: A1L43KWWR05PCS
+count: 960
+
+User_id: A1G37DFO8MQW0M
+count: 932
+
+User_id: A2NJO6YE954DBH
+count: 913
+
+User_id: A3M174IC0VXOS2
+count: 912
+
+User_id: A1EKTLUL24HDG8
+count: 900
+
+User_id: A3MV1KKHX51FYT
+count: 866
+
+User_id: A3QVAKVRAH657N
+count: 824
+
+User_id: A1M8PP7MLHNBQB
+count: 798
+
+User_id: A319KYEIAZ3SON
+count: 797
+
+
+==============================
+Top 20 Books (Most Reviews)
+==============================
+
+Title: The Hobbit
+count: 22023
+
+Title: Pride and Prejudice
+count: 20371
+
+Title: Atlas Shrugged
+count: 12513
+
+Title: Wuthering Heights
+count: 10780
+
+Title: The Giver
+count: 7644
+
+Title: Great Expectations
+count: 7421
+
+Title: Harry Potter and The Sorcerer's Stone
+count: 6796
+
+Title: Of Mice and Men
+count: 6728
+
+Title: Brave New World
+count: 6312
+
+Title: Mere Christianity
+count: 6053
+
+Title: The Picture of Dorian Gray
+count: 5883
+
+Title: Persuasion
+count: 5498
+
+Title: The Great Gatsby
+count: 5291
+
+Title: Fahrenheit 451
+count: 4932
+
+Title: To kill a mockingbird
+count: 4805
+
+Title: The Scarlet Letter A Romance
+count: 4610
+
+Title: The Hobbit There and Back Again
+count: 4438
+
+Title: The Hobbit; Or, There and Back Again
+count: 4427
+
+Title: The Hobbitt, or there and back again; illustrated by the author.
+count: 4420
+
+Title: The Hobbit or There and Back Again
+count: 4373
+
+
+==============================
+Dropped Columns Info
+==============================
+
+Dropped Columns: ['Price', 'review/helpfulness']
+
+Converted 'review/time' to 'reviewTimeReadable'
+
+Dropped rows with missing Title/User_id.
+

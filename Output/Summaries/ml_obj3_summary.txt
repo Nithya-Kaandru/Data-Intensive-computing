@@ -1,0 +1,18 @@
+==============================
+Summary
+==============================
+
+Cluster Size Distribution:
+Cluster 0: 673778 users
+Cluster 1: 173391 users
+Cluster 2: 38266 users
+Cluster 3: 122988 users
+
+Cluster Profiles (Averages):
+         avg_review_score  num_reviews  avg_review_length
+cluster                                                  
+0                    4.76         1.65              61.91
+1                    1.92         1.57              76.76
+2                    4.26        16.55             112.58
+3                    4.32         1.95             239.36
+

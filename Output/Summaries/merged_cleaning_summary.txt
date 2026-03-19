@@ -1,0 +1,53 @@
+
+==============================
+Merged Dataset Initial Schema
+==============================
+
+root
+ |-- Title: string (nullable = true)
+ |-- Id: string (nullable = true)
+ |-- User_id: string (nullable = true)
+ |-- profileName: string (nullable = true)
+ |-- review/score: string (nullable = true)
+ |-- review/time: string (nullable = true)
+ |-- review/summary: string (nullable = true)
+ |-- review/text: string (nullable = true)
+ |-- reviewTimeReadable: string (nullable = true)
+ |-- description: string (nullable = true)
+ |-- authors: string (nullable = true)
+ |-- image: string (nullable = true)
+ |-- previewLink: string (nullable = true)
+ |-- publisher: string (nullable = true)
+ |-- publishedDate: string (nullable = true)
+ |-- infoLink: string (nullable = true)
+ |-- categories: string (nullable = true)
+ |-- ratingsCount: double (nullable = true)
+
+
+
+==============================
+Merged Dataset Schema After Cleaning
+==============================
+
+root
+ |-- Title: string (nullable = true)
+ |-- Id: string (nullable = true)
+ |-- User_id: string (nullable = true)
+ |-- profileName: string (nullable = true)
+ |-- review/score: double (nullable = true)
+ |-- review/time: string (nullable = true)
+ |-- review/summary: string (nullable = true)
+ |-- review/text: string (nullable = true)
+ |-- reviewTimeReadable: string (nullable = true)
+ |-- description: string (nullable = true)
+ |-- authors: string (nullable = true)
+ |-- publisher: string (nullable = true)
+ |-- publishedDate: string (nullable = true)
+ |-- categories: string (nullable = true)
+ |-- ratingsCount: double (nullable = true)
+ |-- reviewYear: integer (nullable = true)
+ |-- review_length: integer (nullable = false)
+
+
+Outlier Handling done on avg_review_score (0-5), num_reviews (cap 19.0), avg_review_length (cap 409.0)
+

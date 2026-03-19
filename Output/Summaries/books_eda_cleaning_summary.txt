@@ -1,0 +1,318 @@
+
+==============================
+Books Dataset Initial Schema
+==============================
+
+root
+ |-- Title: string (nullable = true)
+ |-- description: string (nullable = true)
+ |-- authors: string (nullable = true)
+ |-- image: string (nullable = true)
+ |-- previewLink: string (nullable = true)
+ |-- publisher: string (nullable = true)
+ |-- publishedDate: string (nullable = true)
+ |-- infoLink: string (nullable = true)
+ |-- categories: string (nullable = true)
+ |-- ratingsCount: string (nullable = true)
+
+
+
+==============================
+Books Dataset Top 5 Rows
+==============================
+
+{'Title': 'Its Only Art If Its Well Hung!', 'authors': "['Julie Strain']", 'categories': "['Comics & Graphic Novels']", 'ratingsCount': None}
+{'Title': 'Dr. Seuss: American Icon', 'authors': ' like that of Lewis Carroll and Edward Lear', 'categories': 'http://books.google.nl/books?id=IjvHQsCn_pgC&printsec=frontcover&dq=Dr.+Seuss:+American+Icon&hl=&cd=1&source=gbs_api', 'ratingsCount': 'A&C Black'}
+{'Title': 'Wonderful Worship in Smaller Churches', 'authors': "['David R. Ray']", 'categories': "['Religion']", 'ratingsCount': None}
+{'Title': 'Whispers of the Wicked Saints', 'authors': "['Veronica Haddon']", 'categories': "['Fiction']", 'ratingsCount': None}
+{'Title': 'Nation Dance: Religion, Identity and Cultural Difference in the Caribbean', 'authors': "['Edward Long']", 'categories': None, 'ratingsCount': None}
+
+==============================
+Books Dataset Summary Statistics (DESCRIBE)
+==============================
+
+{'summary': 'count', 'Title': '212403', 'description': '144047', 'authors': '181153', 'image': '161213', 'previewLink': '188349', 'publisher': '139274', 'publishedDate': '186560', 'infoLink': '188103', 'categories': '171880', 'ratingsCount': '63852'}
+{'summary': 'mean', 'Title': '3823.672941176471', 'description': '1.4285714285714286', 'authors': '1578.4', 'image': '1184.0', 'previewLink': 'Infinity', 'publisher': '3734.75', 'publishedDate': '1982.702933143332', 'infoLink': '1989.054693877551', 'categories': '1983.7334777898159', 'ratingsCount': '56.31520537852275'}
+{'summary': 'stddev', 'Title': '10717.999589636447', 'description': '0.9759000729485332', 'authors': '1278.7901502106834', 'image': '959.3546076180043', 'previewLink': 'NaN', 'publisher': '10193.316327911616', 'publishedDate': '37.65620052385512', 'infoLink': '94.83861134693095', 'categories': '142.43423125699243', 'ratingsCount': '329.2087985975371'}
+{'summary': 'min', 'Title': '""" Film technique', 'description': ' "" and', 'authors': ' "" ""I\'m a Little Teapot', 'image': ' "" ""In Honor of the Persian Gulf War', 'previewLink': ' "" ""The Barefoot Boy', 'publisher': ' "" ""Skipper Ireson\'s Ride', 'publishedDate': ' "" ""Cruising for Prostitutes', 'infoLink': ' "" Rawlins says. ""It is only when we understand why we made these choices that we can truly begin to grow.""In Soul Growth issues-Soul Grief Choices', 'categories': ' "" Knox\'s quirky characters appear ornery', 'ratingsCount': " !Buscalo!'s easy-to-use alphabetical format allows you to go directly to the entry that addresses your specific question. Over 500 entries cover everything from meaning"}
+{'summary': 'max', 'Title': 'you can do anything with crepes', 'description': "�Una novela llam�mosle existencialista, y a la vez un juego de la inteligencia� La Vanguardia Yambo es un hombre de sesenta a�os que, tras sufrir un accidente, ha perdido la memoria personal, la m�s ligada a las emociones, y ve su propia vida como si acabara de inaugurarla. Para recuperarse, pasa una temporada en el caser�n de Solara, un pueblo en las colinas piamontesas, donde pas� su infancia. En el desv�n est�n guardados los libros, los c�mics, los discos, los recortes de peri�dico y los carteles de las pel�culas que lo acompa�aron en los primeros a�os de su vida. Yambo inicia entonces una labor casi detectivesca por volver a dibujar el pasado a trav�s de estos objetos, cosas nuevas que le hablan de un mundo que fue el suyo y el de todas las personas que vivieron los momentos m�s importantes del siglo xx. ENGLISH DESCRIPTION Yambo, a sixtyish rare-book dealer who lives in Milan, has suffered a loss of memory-he can remember the plot of every book he has ever read, every line of poetry, but he no longer knows his own name, doesn't recognize his wife or his daughters, and remembers nothing about his parents or his childhood. In an effort to retrieve his past, he withdraws to the family home somewhere in the hills between Milan and Turin. There, in the sprawling attic, he searches through boxes of old newspapers, comics, records, photo albums, and adolescent diaries. And so Yambo relives the story of his generation: Mussolini, Catholic education and guilt, Josephine Baker, Flash Gordon, Fred Astaire. His memories run wild, and the life racing before his eyes takes the form of a graphic novel. Yambo struggles through the frames to capture one simple, innocent image: that of his first love. A fascinating, abundant new novel-wide-ranging, nostalgic, funny, full of heart-from the incomparable Eco.", 'authors': '” “Jeanie with the Light Brown Hair', 'image': '” “sexual napalm…” and more. Open Book is an opportunity to laugh and cry with a close friend', 'previewLink': '” headlines eight tales of mystics and unicorns', 'publisher': '펜립', 'publishedDate': '” which is anthologized in the Oxford Book of Fantasy', 'infoLink': '秀和システム', 'categories': '�� folk art is a collection of extraordinary pieces', 'ratingsCount': '谷月社'}
+
+==============================
+Books Dataset Detailed Summary (SUMMARY)
+==============================
+
+{'summary': 'count', 'Title': '212403', 'description': '144047', 'authors': '181153', 'image': '161213', 'previewLink': '188349', 'publisher': '139274', 'publishedDate': '186560', 'infoLink': '188103', 'categories': '171880', 'ratingsCount': '63852'}
+{'summary': 'mean', 'Title': '3823.672941176471', 'description': '1.4285714285714286', 'authors': '1578.4', 'image': '1184.0', 'previewLink': 'Infinity', 'publisher': '3734.75', 'publishedDate': '1982.702933143332', 'infoLink': '1989.054693877551', 'categories': '1983.7334777898159', 'ratingsCount': '56.31520537852275'}
+{'summary': 'stddev', 'Title': '10717.999589636447', 'description': '0.9759000729485332', 'authors': '1278.7901502106834', 'image': '959.3546076180043', 'previewLink': 'NaN', 'publisher': '10193.316327911616', 'publishedDate': '37.65620052385512', 'infoLink': '94.83861134693095', 'categories': '142.43423125699243', 'ratingsCount': '329.2087985975371'}
+{'summary': 'min', 'Title': '""" Film technique', 'description': ' "" and', 'authors': ' "" ""I\'m a Little Teapot', 'image': ' "" ""In Honor of the Persian Gulf War', 'previewLink': ' "" ""The Barefoot Boy', 'publisher': ' "" ""Skipper Ireson\'s Ride', 'publishedDate': ' "" ""Cruising for Prostitutes', 'infoLink': ' "" Rawlins says. ""It is only when we understand why we made these choices that we can truly begin to grow.""In Soul Growth issues-Soul Grief Choices', 'categories': ' "" Knox\'s quirky characters appear ornery', 'ratingsCount': " !Buscalo!'s easy-to-use alphabetical format allows you to go directly to the entry that addresses your specific question. Over 500 entries cover everything from meaning"}
+{'summary': '25%', 'Title': '666.0', 'description': '0.0', 'authors': '43.0', 'image': '11.0', 'previewLink': '45.0', 'publisher': '1853.0', 'publishedDate': '1976.0', 'infoLink': '1993.0', 'categories': '1993.0', 'ratingsCount': '1.0'}
+{'summary': '50%', 'Title': '1603.0', 'description': '2.0', 'authors': '1929.0', 'image': '1876.0', 'previewLink': '1880.0', 'publisher': '1853.0', 'publishedDate': '1995.0', 'infoLink': '2000.0', 'categories': '2000.0', 'ratingsCount': '2.0'}
+{'summary': '75%', 'Title': '1968.0', 'description': '2.0', 'authors': '1963.0', 'image': '1973.0', 'previewLink': '1972.0', 'publisher': '1964.0', 'publishedDate': '2001.0', 'infoLink': '2004.0', 'categories': '2004.0', 'ratingsCount': '5.0'}
+{'summary': 'max', 'Title': 'you can do anything with crepes', 'description': "�Una novela llam�mosle existencialista, y a la vez un juego de la inteligencia� La Vanguardia Yambo es un hombre de sesenta a�os que, tras sufrir un accidente, ha perdido la memoria personal, la m�s ligada a las emociones, y ve su propia vida como si acabara de inaugurarla. Para recuperarse, pasa una temporada en el caser�n de Solara, un pueblo en las colinas piamontesas, donde pas� su infancia. En el desv�n est�n guardados los libros, los c�mics, los discos, los recortes de peri�dico y los carteles de las pel�culas que lo acompa�aron en los primeros a�os de su vida. Yambo inicia entonces una labor casi detectivesca por volver a dibujar el pasado a trav�s de estos objetos, cosas nuevas que le hablan de un mundo que fue el suyo y el de todas las personas que vivieron los momentos m�s importantes del siglo xx. ENGLISH DESCRIPTION Yambo, a sixtyish rare-book dealer who lives in Milan, has suffered a loss of memory-he can remember the plot of every book he has ever read, every line of poetry, but he no longer knows his own name, doesn't recognize his wife or his daughters, and remembers nothing about his parents or his childhood. In an effort to retrieve his past, he withdraws to the family home somewhere in the hills between Milan and Turin. There, in the sprawling attic, he searches through boxes of old newspapers, comics, records, photo albums, and adolescent diaries. And so Yambo relives the story of his generation: Mussolini, Catholic education and guilt, Josephine Baker, Flash Gordon, Fred Astaire. His memories run wild, and the life racing before his eyes takes the form of a graphic novel. Yambo struggles through the frames to capture one simple, innocent image: that of his first love. A fascinating, abundant new novel-wide-ranging, nostalgic, funny, full of heart-from the incomparable Eco.", 'authors': '” “Jeanie with the Light Brown Hair', 'image': '” “sexual napalm…” and more. Open Book is an opportunity to laugh and cry with a close friend', 'previewLink': '” headlines eight tales of mystics and unicorns', 'publisher': '펜립', 'publishedDate': '” which is anthologized in the Oxford Book of Fantasy', 'infoLink': '秀和システム', 'categories': '�� folk art is a collection of extraordinary pieces', 'ratingsCount': '谷月社'}
+
+==============================
+Books Missing Values (Before Cleaning)
+==============================
+
+Title: 1
+description: 68357
+authors: 31251
+image: 51191
+previewLink: 24055
+publisher: 73130
+publishedDate: 25844
+infoLink: 24301
+categories: 40524
+ratingsCount: 148552
+
+
+==============================
+Top 20 Authors
+==============================
+
+authors: None
+count: 31251
+
+authors:  we issue the books that need to be read. Each Good Press edition has been meticulously edited and formatted to boost readability for all e-readers and devices. Our goal is to produce eBooks that are user-friendly and accessible to everyone in a high-quality digital format."
+count: 252
+
+authors: ['Rose Arny']
+count: 235
+
+authors: ['William Shakespeare']
+count: 181
+
+authors: ['Library of Congress. Copyright Office']
+count: 178
+
+authors: ['Agatha Christie']
+count: 133
+
+authors: "[""Louis L'Amour""]"
+count: 119
+
+authors: ['Erle Stanley Gardner']
+count: 117
+
+authors: ['Charles Dickens']
+count: 81
+
+authors: ['Edgar Rice Burroughs']
+count: 71
+
+authors: ['Carolyn Keene']
+count: 70
+
+authors: ['Ann M. Martin']
+count: 68
+
+authors: ['Isaac Asimov']
+count: 66
+
+authors: ['Rudyard Kipling']
+count: 64
+
+authors: ['Zane Grey']
+count: 63
+
+authors: ['Nora Roberts']
+count: 59
+
+authors: ['Mark Twain']
+count: 56
+
+authors: ['Henry James']
+count: 53
+
+authors: ['Joseph Conrad']
+count: 53
+
+authors: ['Library of Congress']
+count: 52
+
+
+==============================
+Top 20 Categories
+==============================
+
+categories: None
+count: 40524
+
+categories: ['Fiction']
+count: 20020
+
+categories: ['Religion']
+count: 7923
+
+categories: ['History']
+count: 7882
+
+categories: ['Juvenile Fiction']
+count: 6088
+
+categories: ['Biography & Autobiography']
+count: 5207
+
+categories: ['Business & Economics']
+count: 4663
+
+categories: ['Computers']
+count: 3659
+
+categories: ['Social Science']
+count: 3212
+
+categories: ['Juvenile Nonfiction']
+count: 3190
+
+categories: ['Science']
+count: 2346
+
+categories: ['Education']
+count: 2297
+
+categories: ['Cooking']
+count: 2158
+
+categories: ['Sports & Recreation']
+count: 1975
+
+categories: ['Medical']
+count: 1828
+
+categories: ['Music']
+count: 1823
+
+categories: ['Family & Relationships']
+count: 1814
+
+categories: ['Art']
+count: 1796
+
+categories: ['Literary Criticism']
+count: 1791
+
+categories: ['Language Arts & Disciplines']
+count: 1751
+
+
+==============================
+Schema After Type Conversion
+==============================
+
+root
+ |-- Title: string (nullable = true)
+ |-- description: string (nullable = true)
+ |-- authors: string (nullable = true)
+ |-- image: string (nullable = true)
+ |-- previewLink: string (nullable = true)
+ |-- publisher: string (nullable = true)
+ |-- publishedDate: string (nullable = true)
+ |-- infoLink: string (nullable = true)
+ |-- categories: string (nullable = true)
+ |-- ratingsCount: integer (nullable = true)
+
+
+
+==============================
+Books Missing Values (After Cleaning)
+==============================
+
+Title: 0
+description: 0
+authors: 0
+image: 0
+previewLink: 0
+publisher: 0
+publishedDate: 0
+infoLink: 0
+categories: 0
+ratingsCount: 0
+
+
+==============================
+Outlier Bounds
+==============================
+
+RatingsCount Outlier Bounds: 1% = 0.0, 99% = 46.0
+
+
+==============================
+Duplicate Removal Summary
+==============================
+
+Duplicate Rows Removed: 0
+
+
+==============================
+Final Sample After Cleaning
+==============================
+
+Title: A Guide to Sequoia and General Grant National Parks
+authors: ['Ansel F. Hall']
+categories: Uncategorized
+ratingsCount: 0.0
+
+Title: Marshall Hollenzer is Driving
+authors: ['Owen Egerton']
+categories: ['Fiction']
+ratingsCount: 0.0
+
+Title: The New Revised Standard Version Bible with Apocrypha
+authors: ['Hendrickson Publishers']
+categories: ['Bibles']
+ratingsCount: 1.0
+
+Title: What Every Woman Should Know about Divorce and Custody
+authors: ['Gayle Rosenwald Smith J.D.', 'Sally Abrahms']
+categories: ['Family & Relationships']
+ratingsCount: 0.0
+
+Title: Reporting World War II Part Two: American Journalism 1944-46
+authors: ['Mark Philip Bradley']
+categories: ['History']
+ratingsCount: 0.0
+
+Title: Lore of the Shinobi Warrior (Ninja, Vol. 5)
+authors: Unknown Author
+categories: Uncategorized
+ratingsCount: 0.0
+
+Title: A Rolling Stone: Or the Adventures of a Wanderer
+authors: ['Horatio Alger']
+categories: Uncategorized
+ratingsCount: 0.0
+
+Title: Dagger and the Cross, The
+authors: ['Joseph Hatton']
+categories: ['History']
+ratingsCount: 0.0
+
+Title: The Rjurik Highlands (AD&D; 2nd Edition, Birthright Campaign Expansion, 3121)
+authors: Unknown Author
+categories: Uncategorized
+ratingsCount: 0.0
+
+Title: Requiem for a Wren
+authors: ['Nevil Shute']
+categories: ['Fiction']
+ratingsCount: 7.0
+
+
+==============================
+Final Schema After Cleaning
+==============================
+
+root
+ |-- Title: string (nullable = true)
+ |-- description: string (nullable = true)
+ |-- authors: string (nullable = true)
+ |-- image: string (nullable = true)
+ |-- previewLink: string (nullable = true)
+ |-- publisher: string (nullable = true)
+ |-- publishedDate: string (nullable = true)
+ |-- infoLink: string (nullable = true)
+ |-- categories: string (nullable = true)
+ |-- ratingsCount: double (nullable = true)
+
+

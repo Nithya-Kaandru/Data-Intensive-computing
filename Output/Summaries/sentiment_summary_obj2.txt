@@ -1,0 +1,55 @@
+==============================
+Sentiment Analysis Summary
+==============================
+
+Sampled review/text ready for sentiment analysis.
+
+Sentiment classification done.
+Sentiment counts:
+Positive: 193866
+Neutral: 63528
+Negative: 10766
+
+Top Positive Keywords:
+book: 297378
+read: 128256
+one: 89512
+story: 64699
+great: 57722
+like: 53300
+good: 51890
+books: 49077
+would: 47738
+time: 45550
+many: 43878
+reading: 43591
+first: 41526
+life: 40135
+love: 39545
+much: 37235
+well: 36793
+really: 34128
+also: 34033
+characters: 32900
+
+Top Negative Keywords:
+book: 11736
+read: 4664
+one: 2753
+like: 2262
+would: 1742
+story: 1733
+reading: 1588
+books: 1545
+time: 1455
+boring: 1449
+get: 1338
+dont: 1284
+people: 1168
+even: 1142
+bad: 1089
+characters: 964
+could: 963
+know: 944
+written: 938
+really: 926
