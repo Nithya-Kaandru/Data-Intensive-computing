@@ -1,5 +1,6 @@
-# DIC Phase 2 - Project Overview
-This project involves **large-scale data ingestion, cleaning, exploratory analysis, and machine learning modeling** using **PySpark** and a **Docker-based Hadoop** cluster.\
+# Project Overview
+# Amazon Book Reviews Analysis & Recommendation System
+This project involves **large-scale data ingestion, cleaning, exploratory analysis, and machine learning modeling** using **PySpark** and a **Docker-based Hadoop** cluster.
 ## Project Structure
 ### Code
 Contains all Python scripts organized by stage:
